@@ -2,10 +2,10 @@
 After you are done with the install
 
 0:00:02.540,0:00:07.300
-you can find a new group [Git] in a start menu.
+you can find a new group [Git] in the start menu.
 
 0:00:07.860,0:00:12.700
-[Git Bash] and [Git CMD] - these are the command line interface shells to work with git.
+[Git Bash] and [Git CMD] - these are the command line interface shells that work with git.
 
 0:00:12.700,0:00:18.440
 Git Bash is a port of unix bash version. Git CMD is a usual windows cmd.
@@ -17,16 +17,16 @@ And finally this [Git GUI] is a simple UI.
 Command line will be our main tool because,
 
 0:00:24.460,0:00:28.080
-it gives access to all the power of git.
+it gives us access to all the power of git.
 
 0:00:28.080,0:00:32.480
-Once you master a command line you will figure out UI easilly,
+Once you master the command line you can figure out 
 
 0:00:32.480,0:00:34.180
-this or any other one.
+this, or any other UI easilly
 
 0:00:34.180,0:00:37.400
-We could have chosed this one [Git CMD] or this one [Git Bash],
+We could have chosen this one [Git CMD] or this one [Git Bash],
 
 0:00:37.400,0:00:41.120
 but modern windows has another shell that is quite powerful,
@@ -38,10 +38,10 @@ and therefor is called PowerShell.
 I've just started it.
 
 0:00:44.420,0:00:49.020
-Let me increase the font a little, so you could see what we are doing better.
+Let me increase the font a little, so you can see what we are doing better.
 
 0:00:50.640,0:00:55.660
-For further work I'm going to install one really good module that is called posh-git.
+Additionally, I'm going to install one really good module that is called posh-git.
 
 0:00:55.660,0:01:01.260
 It will add a current state of our git project to the command prompt.
@@ -53,7 +53,7 @@ You can go without it, but its a very usefull feature.
 Heres the description of what it does and steps to install it,
 
 0:01:08.100,0:01:09.660
-which Im about to make
+which Im about to do
 
 0:01:10.680,0:01:12.320
 To install it
@@ -68,28 +68,28 @@ Yes, I agree to install NuGet,
 I also agree to anything its going to ask me further
 
 0:01:23.120,0:01:26.500
-And module is added, lets start it.
+Andthe  module is added, lets start it.
 
 0:01:26.500,0:01:29.560
 We see an error, the system doesnt allow us to do this,
 
 0:01:29.560,0:01:32.920
-as current security settings are forbidding it.
+as the current security settings are forbidding it.
 
 0:01:32.920,0:01:36.760
 To soften them up I will run "Set-ExecutionPolicy".
 
 0:01:36.760,0:01:40.840
-My choice means that I allow powershell to run the scripts downloaded,
+This choice means that I allow powershell to run the scripts downloaded,
 
 0:01:40.840,0:01:43.920
 if they are signed with the trusted digital signature.
 
 0:01:43.920,0:01:47.480
-Thats it, now running again. Great.
+Thats it, its now running again. Great.
 
 0:01:47.480,0:01:51.400
-Lets create a folder for the future needs
+Lets create a folder for our future needs
 
 0:01:53.420,0:01:55.480
 and run a "git init" inside it,
@@ -119,13 +119,13 @@ You will see it in action if you continue working with git,
 and if you want to learn about the additional settings
 
 0:02:15.940,0:02:18.540
-you can find the on the authors page.
+you can find them on the authors page.
 
 0:02:18.780,0:02:21.440
 One can also find some examples there as well.
 
 0:02:22.300,0:02:25.840
-Its ok if you didnt work in a command line previously.
+Its ok if you haven't worked with a command line previously.
 
 0:02:25.840,0:02:27.360
 The basic idea is very simple,
@@ -191,13 +191,13 @@ and here is my project directory
 Its empty now, because the hidden files are not displayed,
 
 0:03:32.860,0:03:36.680
-if show them you will see a .git directory.
+if I show them you will see a .git directory.
 
 0:03:36.680,0:03:39.760
 So, previously we were looking at the PowerShell setup,
 
 0:03:39.760,0:03:42.500
-but later on in a screencast
+but later on in the screencast
 
 0:03:42.500,0:03:45.200
 you will notice that I use another shell
@@ -212,7 +212,7 @@ and it doesnt have PowerShell
 The closest analogue is Git bash,
 
 0:03:51.300,0:03:53.040
-that is being installed together with git.
+that is installed together with git.
 
 0:03:53.040,0:03:55.220
 There are several ways to run it
@@ -239,7 +239,7 @@ One can change colors and fonts here, in the menu and so on.
 You had the following choices during the install process:
 
 0:04:22.800,0:04:27.040
-use terminal, that goes together with git or use the one that goes with windows
+use terminal, which goes together with git or use the one that goes with windows
 
 0:04:27.040,0:04:28.780
 And we have selected the second option,
@@ -269,61 +269,61 @@ and thats basically it, the only thing that is different.
 They are absolutely identical inside, same git bash,
 
 0:04:57.620,0:05:00.080
-that means that the shell that is different to PowerShell,
+that means that the shell is different than PowerShell,
 
 0:05:00.080,0:05:02.380
-where the commands are completely different
+and the commands are completely different
 
 0:05:02.380,0:05:06.140
 although some basic commands can be used interchangebly in both.
 
 0:05:06.140,0:05:11.600
-For example to see a list of files in a directory I can use ls, same like in powershell
+For example to see a list of files in a directory I can use ls, the same as powershell
 
 0:05:11.600,0:05:15.060
-but to see the files, which names are starting with "."
+but in order to see the files whose names start with ".",
 
 0:05:15.060,0:05:19.580
-in our case its .git I had to use -a flag, not -hidden flag
+in our case its .git, I had to use the flag -a , not -hidden 
 
 0:05:20.000,0:05:22.120
 As this screencast is about git in the first place,
 
 0:05:22.120,0:05:26.140
-I will try to use the commands that are specific to one or the other shell to minimum.
+I will try to use the commands that are specific to one shell or the other to a minimum.
 
 0:05:26.140,0:05:28.940
 Nevertheless if you work with PowerShell
 
 0:05:28.940,0:05:32.300
-and something is not working it makes sense to use gitbash,
+and something is not working, it makes sense to use gitbash,
 
 0:05:32.300,0:05:34.180
-as maybe it causes the problem
+as Powershell may have caused the problem
 
 0:05:34.520,0:05:36.380
 In conclusion I would like to add
 
 0:05:36.380,0:05:38.860
-that if you, like many of windows users,
+that if you, like many windows users,
 
 0:05:38.860,0:05:42.500
 are not comfortable in working with command line and prefer the UI
 
 0:05:42.500,0:05:46.480
-then most of the modern editors have extensive git integration,
+then know that most of the modern editors have extensive git integration,
 
 0:05:46.480,0:05:51.840
-so that day to day tasks can be solved with the buttons, mouse and some hotkeys.
+so that day to day tasks can be solved with the keyboard, mouse and some hotkeys.
 
 0:05:51.840,0:05:55.000
-But the command line is needed firstly to learn git
+But the command line is necessary to learn git
 
 0:05:55.000,0:05:56.960
 and to understand how it works
 
 0:05:56.960,0:06:02.420
-secondly - to access git features that does not have a convenient UI implemented
+Also - to access git features that do not have a convenient UI implemented
 
 0:06:02.420,0:06:04.220
 or have no UI implemented at all.
